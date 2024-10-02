@@ -1,0 +1,66 @@
+table {
+	/*table-layout: fixed;*/
+	margin: 0 auto;
+	/* width:100%; */
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+thead th {
+	top: 0;
+	/*position: sticky;*/
+	vertical-align: middle;
+	/*z-index: 20;*/
+	background-color: white;
+}
+th {
+	vertical-align: middle;
+	text-align: center;
+}
+tbody td {
+	vertical-align: middle;
+	text-align: center;
+}
+.title {
+	font-size: 2.25rem;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 2.0rem;
+}
+
+h1 {
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 1.0rem;
+}
+h2 {
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 0.7rem;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: #007BFF;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.button:hover {
+	background-color: #0056b3;
+}
+.submission-id {
+	text-align: center;
+	font-size: 1.5em;
+}
+
