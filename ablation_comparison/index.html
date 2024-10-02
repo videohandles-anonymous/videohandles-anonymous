@@ -1,0 +1,427 @@
+<!-- BEGIN: results_template.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VideoHandles Comparison with Baselines</title>
+</head>
+<style>
+table { 
+    table-layout:fixed;
+    width:100%;
+}
+img {
+    max-height:100%;
+    max-width:100%;
+}
+thead th {
+    top: 0;
+    position: sticky;
+    z-index: 20;
+    background-color: white;
+}
+td {
+    text-align: center;
+}
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                
+                <th>Input</th>
+                
+                <th>w. Temporal Features</th>
+                
+                <th>w/o Null-Text Pred. </th>
+                
+                <th>w/o Self-Att. Mask</th>
+                
+                <th>VideoHandles (ours)</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                
+                <td><img src="0/Input.gif"></td>
+                
+                <td><img src="0/w._Temporal_Features.gif"></td>
+                
+                <td><img src="0/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="0/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="0/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="1/Input.gif"></td>
+                
+                <td><img src="1/w._Temporal_Features.gif"></td>
+                
+                <td><img src="1/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="1/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="1/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="2/Input.gif"></td>
+                
+                <td><img src="2/w._Temporal_Features.gif"></td>
+                
+                <td><img src="2/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="2/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="2/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="3/Input.gif"></td>
+                
+                <td><img src="3/w._Temporal_Features.gif"></td>
+                
+                <td><img src="3/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="3/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="3/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="4/Input.gif"></td>
+                
+                <td><img src="4/w._Temporal_Features.gif"></td>
+                
+                <td><img src="4/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="4/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="4/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="6/Input.gif"></td>
+                
+                <td><img src="6/w._Temporal_Features.gif"></td>
+                
+                <td><img src="6/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="6/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="6/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="7/Input.gif"></td>
+                
+                <td><img src="7/w._Temporal_Features.gif"></td>
+                
+                <td><img src="7/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="7/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="7/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="8/Input.gif"></td>
+                
+                <td><img src="8/w._Temporal_Features.gif"></td>
+                
+                <td><img src="8/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="8/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="8/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="9/Input.gif"></td>
+                
+                <td><img src="9/w._Temporal_Features.gif"></td>
+                
+                <td><img src="9/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="9/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="9/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="10/Input.gif"></td>
+                
+                <td><img src="10/w._Temporal_Features.gif"></td>
+                
+                <td><img src="10/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="10/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="10/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="12/Input.gif"></td>
+                
+                <td><img src="12/w._Temporal_Features.gif"></td>
+                
+                <td><img src="12/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="12/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="12/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="13/Input.gif"></td>
+                
+                <td><img src="13/w._Temporal_Features.gif"></td>
+                
+                <td><img src="13/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="13/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="13/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="14/Input.gif"></td>
+                
+                <td><img src="14/w._Temporal_Features.gif"></td>
+                
+                <td><img src="14/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="14/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="14/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="16/Input.gif"></td>
+                
+                <td><img src="16/w._Temporal_Features.gif"></td>
+                
+                <td><img src="16/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="16/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="16/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="18/Input.gif"></td>
+                
+                <td><img src="18/w._Temporal_Features.gif"></td>
+                
+                <td><img src="18/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="18/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="18/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="19/Input.gif"></td>
+                
+                <td><img src="19/w._Temporal_Features.gif"></td>
+                
+                <td><img src="19/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="19/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="19/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="21/Input.gif"></td>
+                
+                <td><img src="21/w._Temporal_Features.gif"></td>
+                
+                <td><img src="21/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="21/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="21/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="24/Input.gif"></td>
+                
+                <td><img src="24/w._Temporal_Features.gif"></td>
+                
+                <td><img src="24/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="24/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="24/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="26/Input.gif"></td>
+                
+                <td><img src="26/w._Temporal_Features.gif"></td>
+                
+                <td><img src="26/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="26/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="26/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="27/Input.gif"></td>
+                
+                <td><img src="27/w._Temporal_Features.gif"></td>
+                
+                <td><img src="27/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="27/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="27/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="28/Input.gif"></td>
+                
+                <td><img src="28/w._Temporal_Features.gif"></td>
+                
+                <td><img src="28/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="28/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="28/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="29/Input.gif"></td>
+                
+                <td><img src="29/w._Temporal_Features.gif"></td>
+                
+                <td><img src="29/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="29/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="29/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="31/Input.gif"></td>
+                
+                <td><img src="31/w._Temporal_Features.gif"></td>
+                
+                <td><img src="31/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="31/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="31/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="32/Input.gif"></td>
+                
+                <td><img src="32/w._Temporal_Features.gif"></td>
+                
+                <td><img src="32/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="32/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="32/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="33/Input.gif"></td>
+                
+                <td><img src="33/w._Temporal_Features.gif"></td>
+                
+                <td><img src="33/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="33/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="33/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="34/Input.gif"></td>
+                
+                <td><img src="34/w._Temporal_Features.gif"></td>
+                
+                <td><img src="34/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="34/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="34/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><img src="38/Input.gif"></td>
+                
+                <td><img src="38/w._Temporal_Features.gif"></td>
+                
+                <td><img src="38/w/o_Null-Text_Pred._.gif"></td>
+                
+                <td><img src="38/w/o_Self-Att._Mask.gif"></td>
+                
+                <td><img src="38/VideoHandles_(ours).gif"></td>
+                
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
+<!-- END: results_template.html -->
